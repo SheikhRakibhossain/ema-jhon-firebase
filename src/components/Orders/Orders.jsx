@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Cart from '../Cart/Cart';
 import { Link, useLoaderData } from 'react-router-dom';
 import ReviewItem from '../ReviewItem/ReviewItem';
-import './Orders.css';
 import { deleteShoppingCart, removeFromDb } from '../../utilities/fakedb';
 
 const Orders = () => {
